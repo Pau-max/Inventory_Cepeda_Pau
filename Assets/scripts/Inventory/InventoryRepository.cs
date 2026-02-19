@@ -33,7 +33,7 @@ public class InventoryRepository : MonoBehaviour
                     );";
                 cmd.ExecuteNonQuery();
 
-                cmd.CommandText = "INSERT OR IGNORE INTO Items (itemID, itemName, spriteName) VALUES (1, 'Tostada', 'Toast'), (2, 'Espada', 'Espada');";
+                cmd.CommandText = "INSERT OR IGNORE INTO Items (itemID, itemName, spriteName) VALUES (1, 'Tostada', 'Toast'), (2, 'Cerveza', 'Bear'),(3, 'Carne', 'met');";
                 cmd.ExecuteNonQuery();
             }
         }

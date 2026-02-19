@@ -13,11 +13,19 @@ public class AddItem : MonoBehaviour
         }
     }
 
-    public void AñadirEspada()
+    public void AñadirCerveza()
     {
         if (InventoryManager.Instance != null)
         {
             InventoryManager.Instance.AddItem(2);
+        }
+    }
+
+    public void AñadirCarne()
+    {
+        if (InventoryManager.Instance != null)
+        {
+            InventoryManager.Instance.AddItem(3);
         }
     }
 }
